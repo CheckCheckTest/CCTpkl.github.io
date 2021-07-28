@@ -1,0 +1,1329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+
+    <style>
+        
+        .footer a {
+            text-decoration: none;            
+            color: #fff;
+            text-align: left;
+        }
+
+        .footer h6 {
+            color: #fff;
+            text-align: left;
+        }
+
+        .footer p {
+            color: #fff;
+            text-align: left;
+        }
+        
+        #pb h6 {
+            color: #FF5656;
+        }
+    </style>    
+  </head>
+
+  <body>
+    <span id="navigation bar">
+        <nav class="navbar navbar-expand-lg navbar-light static-top" style="background-color: #fff;">
+            <div class="container-fluid px-lg-5 px-sm-2" style="background-color: #fff;">
+            <a class="navbar-brand" href="#">
+                <img src="Asset/textlogo.svg" alt="..." height="72">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+    
+                    <li class="nav-item text-center">
+                        <a class="nav-link active" aria-current="page" href="index.html" style="color: #0C3A64; font-weight: 550;">BERANDA</a>
+                    </li>
+    
+                    <li class="nav-item dropdown text-center px-md-4" style="color: #0C3A64; font-weight: 550;">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        SYARAT DAN KETENTUAN
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="SyaratdanKetentuan.html">KALTIM TUNTAS MAHASISWA</a></li>
+                        <li><a class="dropdown-item" href="SyaratdanKetentuan.html">KALTIM STIMULAN MAHASISWA</a></li>
+                        <li><a class="dropdown-item" href="SyaratdanKetentuan.html">KALTIM STIMULAN SISWA</a></li>
+                        </ul>
+                    </li>
+    
+                    <li class="nav-item dropdown text-center px-md-4" style="color: #0C3A64; font-weight: 550;">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        INFORMASI
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="Pengaduan.html">PENGADUAN DATA AKTREDITASI</a></li>
+                        <li><a class="dropdown-item" href="#">IAI TAZKIA</a></li>
+                        <li><a class="dropdown-item" href="Pengaduan.html">PERMINTAAN INFORMASI DAN PENGADUAN</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item text-center px-md-4" style="color: #0C3A64; font-weight: 550;">
+                        <a class="nav-link" href="Tentang.html">TENTANG</a>
+                    </li>
+    
+                    <li class="nav-item text-center px-md-4" style="color: #0C3A64; font-weight: 550;">
+                        <a class="nav-link" href="Pengumuman.html">PENGUMUMAN</a>
+                    </li>
+    
+                    <li class="nav-item text-center px-md-4" style="color: #0C3A64; font-weight: 550;">
+                        <a class="nav-link" href="index2.html">Redesign</a>
+                    </li>
+    
+                    <li class="nav-item px-md-4">
+                        <a class="nav-link" href="#">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                LOGIN
+                            </button>
+                        </a>
+                    </li>
+                    <!-- Login Modal -->  
+                    <span id="loginModal">
+                        <script>
+                            var myModal = document.getElementById('myModal')
+                            var myInput = document.getElementById('myInput')
+                    
+                            myModal.addEventListener('shown.bs.modal', function () {
+                            myInput.focus()
+                            })
+                        </script>
+                    
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel"><b>Masuk</b></h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row justify-content-center">
+                                        <div class="col-8"><a href="Login.html"><button type="button" class="btn btn-primary">TUNTAS MAHASISWA</button></a></div>
+                                        <div class="col-8"><a href="Login.html"><button type="button" class="btn btn-primary">STIMULAN MAHASISWA</button></a></div>
+                                        <div class="col-8"><a href="Login.html"><button type="button" class="btn btn-primary">STIMULAN SISWA</button></a></div>
+                                    </div>                
+                                </div>
+                                <div class="modal-footer">
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </span>                  
+    
+                </ul>
+            </div>
+            <a class="navbar-brand" href="#">
+                <img src="Asset/imglogo.svg" alt="..." height="80" class="d-none d-lg-block">
+            </a>
+            </div>
+        </nav>
+    </span>
+    
+    <span class="detail" >
+
+        <div class="container-fluid">
+            <div class="row justify-content-center" id="judullaman"  
+            style="
+            background-image: 
+            linear-gradient(
+            rgba(12, 58, 100, 0.45), 
+            rgba(12, 58, 100, 0.45)
+            ),
+            url(Asset/bgdetailpengum.png);">
+                <div id="bgtentang" class="col col-md-8 col-sm-12 pt-3 mt-5 mx-4" 
+                style="background-color: #fff; opacity: 0.7; 
+                border-top-right-radius: 5vh; border-top-left-radius: 5vh;">
+                    <div class="row">
+                        <div class="col-md-12 col-sm 12 mx-2 p-3">                        
+                            <h1 style="color: #042341; text-align: left; font-weight: 600;">Pengumuman Hasil Seleksi Tahap I Beasiswa Utusan Daerah Kerjasama dengan IPB</h1>
+                        </div>
+                        <div class="col-md-6 col-sm 6">
+                            <h5 style="color: #042341; text-align: left;" >4 Juni 2021</h5>
+                        </div>
+                        <div class="col-md-6 col-sm 6">
+                            <h5 style="color: #042341; text-align: right;" >Penulis : Faisal Erlangga Sanora</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>         
+
+        <div class="container-fluid" id="isilaman">
+            <div class="row justify-content-md-center" id="isitentang" style="background-color: #F2F2F2;">
+                <div class="col-md-8 col-sm-11" style="background-color: #fff;">                    
+    
+                    <div class="row mx-3">
+                        <div class="col mb-3 mt-4">
+                            <span style="color: #000; text-align: left;">
+                                <p>Jadwal proses seleksi calon penerima beasiswa dituangkan dalam surat edaran yang dipublikasikan melalui laman : beasiswa.kaltimprov.go.id, Dinas, media masa, serta media elektronik.</p>
+                                <br>
+    
+                                <p>Daerah Kerjasama dengan IPB, dengan ini di informasikan hal-hal sebagai berikut:</p>
+                                <ol>
+                                    <li>Calon pendaftar Beasiswa Tuntas melakukan pendaftaran dengan masuk ke laman  beasiswa.kaltimprov.go.id, kemudian klik : TUNTAS MAHASISWA.</li>
+                                    <li>Pendaftar Beasiswa wajib membuat akun baru dengan cara klik: BUAT AKUN.</li>
+                                    <li>Memilih kategori beasiswa yang diambil, kemudian melengkapi data dan mengunggah (upload) berkas ASLI yang di foto/scan berwarna, sesuai syarat pendaftaran Beasiswa Kaltim Tuntas.</li>
+                                    <li>Verifikasi data online akan dilakukan oleh Badan Pengelola Beasiswa Kaltim Tuntas yang selanjutnya disebut BP-BKT.</li>
+                                    <li>Validasi Data oleh BP-BKT.</li>
+                                    <li>Menunggu pengumuman.</li>
+                                </ol>
+                            </span>                        
+                        </div>
+                    </div>
+    
+                    <div class="row mb-4 justify-content-center">
+                        <div class="col-8">
+                            <table class="Table" style="border-collapse:collapse; width:615px" cellspacing="0">
+                                <tbody>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:1px solid black; height:56px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">NO</span></span></span></strong></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; height:56px; width:125px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">NAMA</span></span></span></strong></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; height:56px; width:118px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">ASAL DAERAH</span></span></span></strong></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; height:56px; width:121px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">ASAL SEKOLAH</span></span></span></strong></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; height:56px; width:90px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">PILIHAN 1</span></span></span></strong></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; height:56px; width:124px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">PILIHAN 2</span></span></span></strong></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="6" style="border-bottom:1px solid black; border-left:1px solid black; border-right:none; border-top:none; height:19px; width:615px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Ilmu Gizi</span></span></span></strong></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:69px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">1</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Hotma River S.</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kutai Timur</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMA Negeri 2 Sangatta Utara</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Ilmu Gizi</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Pangan</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:87px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">2</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Gloria Feronika Denri Panggau</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kabupaten Penajam Paser Utara</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMA ITCI PENAJAM PASER UTARA</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Ilmu Gizi</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Pangan</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:52px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">3</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Nidaa Rifdah Rahima Hambali</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kab. Paser</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">MAN Insan Cendekia Paser</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Ilmu Gizi</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Industri Pertanian</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:52px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">4</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Eka Maharani</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Samarinda</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMA Negeri 3 Samarinda</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Ilmu Gizi</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kedokteran Hewan</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:52px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">5</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Siti Rahmah</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Paser</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMAN 2 UNGGULAN TANAH GROGOT</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Ilmu Gizi</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Industri Pertanian</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="6" style="border-bottom:1px solid black; border-left:1px solid black; border-right:none; border-top:none; height:19px; width:615px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kedokteran Hewan</span></span></span></strong></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:52px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">1</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">LUQ LUQ FATHYAH SALIM</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kutai Kartanegara</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMAIT Nurul Ilmi Tenggarong</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kedokteran Hewan</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Industri Pertanian</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:69px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">2</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Aura Nur Kholifah</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">KUTAI KARTANEGARA</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMA NEGERI 2 TENGGARONG SEBERANG</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kedokteran Hewan</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Konservasi Sumber Daya Hutan dan Ekowisata</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:52px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">3</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Silla Ariyani</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kutai Kartanegara</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMA NEGERI 1 MUARA MUNTAI</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kedokteran Hewan</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Ilmu Gizi</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:52px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">4</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Viya Auryn Zakiah</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Balikpapan </span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">MAN Insan Cendekia Paser</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kedokteran Hewan</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Ilmu Gizi</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:69px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">5</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Naifatul Aulia Ahmad</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Samarinda</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Madrasah Aliyah Insan Cendekia Paser</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kedokteran Hewan</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Konservasi Sumber Daya Hutan dan Ekowisata</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="6" style="border-bottom:1px solid black; border-left:1px solid black; border-right:none; border-top:none; height:19px; width:615px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi dan Manajemen Perikanan Tangkap</span></span></span></strong></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:87px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">1</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Meilisa Fransiska</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kutai Barat / Sendawar</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMAN 2 SENDAWAR</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi dan Manajemen Perikanan Tangkap</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Konservasi Sumber Daya Hutan dan Ekowisata</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:87px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">2</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Muhammad Syahmi Ramadhan</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Paser</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMAN 1 TANAH GROGOT</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi dan Manajemen Perikanan Tangkap</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Pangan</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:87px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">3</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Tri wahyuni sukarno</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kutai Kartanegara</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMA Negeri 3 Unggulan Tenggarong</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi dan Manajemen Perikanan Tangkap</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Pangan</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:87px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">4</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Muhammad Rifky Nur Ikhwan</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Balikpapan</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMA Negeri 1 Balikpapan</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi dan Manajemen Perikanan Tangkap</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Pangan</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:87px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">5</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Muhammad Ridwan</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kutai timur</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMPN satu</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi dan Manajemen Perikanan Tangkap</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Ilmu Gizi</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="6" style="border-bottom:1px solid black; border-left:1px solid black; border-right:none; border-top:none; height:19px; width:615px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Industri Pertanian</span></span></span></strong></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:52px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">1</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Anisa Marcela</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kota Bontang</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMAN 1 BONTANG</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Industri Pertanian</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Ilmu Gizi</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:69px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">2</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Melani Putri Hapsari </span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kutai Kartanegara</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMA NEGERI 1 TENGGARONG </span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Industri Pertanian</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Pangan</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:69px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">3</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Muhammad Putra Wibisono </span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Samarinda</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMA Negeri 3 Samarinda</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Industri Pertanian</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Arsitektur Landscape</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:52px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">4</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Rizky Austin Lukman</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Samarinda</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMA Negeri 1 Samarinda</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Industri Pertanian</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Pangan</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:52px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">5</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">NADHIFA RANA AZZAHRA</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">KOTA BALIKPAPAN</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMAN 5 BALIKPAPAN</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Industri Pertanian</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Industri Pertanian</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="6" style="border-bottom:1px solid black; border-left:1px solid black; border-right:none; border-top:none; height:19px; width:615px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Pangan</span></span></span></strong></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:52px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">1</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">GEDE ARYA DHARMA DUTA</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kodya Balikpapan</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMA NEGERI TARUNA NALA JAWA TIMUR</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Pangan</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Produksi Ternak</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:69px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">2</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Siti Nur Azizah</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kab. Kutai Timur</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMAN 2 SANGATTA UTARA</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Pangan</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Ilmu Gizi</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:52px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">3</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Akhmad Setiawan</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kutai Timur</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMA Negeri 1 Sangatta Utara</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Pangan</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Arsitektur Landscape</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:69px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">4</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Qurratul Ain Farahiyah</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kutai kartanegara</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMAN 1 Tenggarong</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Pangan</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Ilmu Gizi</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:52px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">5</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Rifdha Salsabila Prastika </span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kutai Kartanegara </span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMAN 1 SANGASANGA</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Pangan</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:52px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Arsitektur Landscape</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="6" style="border-bottom:1px solid black; border-left:1px solid black; border-right:none; border-top:none; height:19px; width:615px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Produksi Ternak</span></span></span></strong></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:69px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">1</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Nurhana Nadhifah Mahdin</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Paser</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">MAN Insan Cendekia Paser</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Produksi Ternak</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kedokteran Hewan</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:69px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">2</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SASKIA NAZWA AZIZAH</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">PASER</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMAN 1 LONG IKIS</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Produksi Ternak</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Industri Pertanian</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:69px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">3</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Muhammad Raihan Ramadhan</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kutai Kartanegara</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMA NEGERI 1 TENGGARONG</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Produksi Ternak</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Pangan</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:69px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">4</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Winda Tumanggor</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kutai Timur</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMA SWASTA BUDI MULIA TUMBA JAE</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Produksi Ternak</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Pangan</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="6" style="border-bottom:1px solid black; border-left:1px solid black; border-right:none; border-top:none; height:19px; width:615px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Arsitektur Landscape</span></span></span></strong></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:76px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">1</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:76px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Tari Pramesti Hanifatul Fauziah</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:76px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kutai Timur</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:76px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMA Negeri 2 Sangatta Utara</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:76px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Arsitektur Landscape</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:76px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kedokteran Hewan</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:65px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">2</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:65px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Muhammad Aditia</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:65px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Penajam Paser Utara</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:65px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMA ITCI</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:65px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Arsitektur Landscape</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:65px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Pangan</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:75px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">3</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:75px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Muhammad Zukhrufillah Arofif</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:75px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Paser</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:75px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">MAN Insan Cendekia Paser</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:75px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Arsitektur Landscape</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:75px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Konservasi Sumber Daya Hutan dan Ekowisata</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:69px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">4</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Tri Ivan Darmawan</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kota Samarinda</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMAN 3 Samarinda</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Arsitektur Landscape</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Pangan</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:69px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">5</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Novalin Delvia Sari </span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kutai Kartanegara</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMAIT Granada</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Arsitektur Landscape</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:69px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Arsitektur Landscape</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:83px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">6</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:83px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Amalia Safira Widyawati</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:83px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Samarinda</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:83px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Man Insan Cendekia paser</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:83px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Arsitektur Landscape</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:83px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Konservasi Sumber Daya Hutan dan Ekowisata</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:85px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">7</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:85px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">LUTHFI BINTANG RAMADHAN HASIBUAN</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:85px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">KOTA SAMARINDA</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:85px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMA NEGERI 3 SAMARINDA</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:85px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Arsitektur Landscape</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:85px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Pangan</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:95px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">8</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:95px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Yusuf Iskandar</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:95px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kabupaten Paser</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:95px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">MAN Insan Cendekia Paser</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:95px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Arsitektur Landscape</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:95px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Ilmu Gizi</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:74px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">9</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:74px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">TEGAR FIRMANSYAH</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:74px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">PASER</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:74px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMAN 1 LONG IKIS</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:74px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Arsitektur Landscape</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:74px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Konservasi Sumber Daya Hutan dan Ekowisata</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:65px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">10</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:65px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Sabrina Salsabila Utomo</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:65px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Balikpapan</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:65px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMAIT Al Auliya</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:65px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Arsitektur Landscape</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:65px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Konservasi Sumber Daya Hutan dan Ekowisata</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="6" style="border-bottom:1px solid black; border-left:1px solid black; border-right:none; border-top:none; height:19px; width:615px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Konservasi Sumber Daya Hutan dan Ekowisata</span></span></span></strong></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:87px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">1</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Ronna Meila Leswana</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kutai Timur</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMAN 2 Sangatta Utara</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Konservasi Sumber Daya Hutan dan Ekowisata</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Pangan</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:87px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">2</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Wahyu Nugroho</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Bontang</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMA DARUL ULUM 2 UNGGULAN BPPT JOMBANG CIS ID 113</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Konservasi Sumber Daya Hutan dan Ekowisata</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Konservasi Sumber Daya Hutan dan Ekowisata</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:87px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">3</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">HAYDAR ALI</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">BALIKPAPAN</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMAS AL - MA HADUL ISLAMI BEJI</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Konservasi Sumber Daya Hutan dan Ekowisata</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kedokteran Hewan</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:87px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">4</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Sitta Safira Ghassani </span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">kutai kartanegara</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Sma Muhammadiyah 2 Yogyakarta </span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Konservasi Sumber Daya Hutan dan Ekowisata</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Arsitektur Landscape</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:87px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">5</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Nahwa Wahda Fikriyah</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kab. Berau</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMA Negeri 8 Berau</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Konservasi Sumber Daya Hutan dan Ekowisata</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kedokteran Hewan</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:87px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">6</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Muhammad Nararaya Abi Wardana</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kutai Kartanegara</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMA 1 Negeri Tenggarong</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Konservasi Sumber Daya Hutan dan Ekowisata</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Pangan</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:87px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">7</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Ananda Nabil</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kutai Timur</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMAN 1 Sangatta Utara</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Konservasi Sumber Daya Hutan dan Ekowisata</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Arsitektur Landscape</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:87px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">8</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SONIA ELVIANA</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kutai Barat</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMA NEGERI 1 SAMARINDA</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Konservasi Sumber Daya Hutan dan Ekowisata</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Industri Pertanian</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:87px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">9</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Alfioni Angleque George Putri</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Balikpapan</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMA Negeri 1 Balikpapan</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Konservasi Sumber Daya Hutan dan Ekowisata</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Pangan</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:87px; width:37px">
+                                        <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">10</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:125px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Shania Nur Azizah</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:118px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Kutai timur</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:121px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">SMK Negeri 1 Karangan</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:90px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Konservasi Sumber Daya Hutan dan Ekowisata</span></span></span></span></span></p>
+                                        </td>
+                                        <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:87px; width:124px">
+                                        <p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="color:black">Teknologi Industri Pertanian</span></span></span></span></span></p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>  
+                    
+                    <div class="row mx-3">
+                        <div class="col mb-3 mt-4">
+                            <span style="color: #000; text-align: left;">
+                                <p>Jadwal proses seleksi calon penerima beasiswa dituangkan dalam surat edaran yang dipublikasikan melalui laman : beasiswa.kaltimprov.go.id, Dinas, media masa, serta media elektronik.</p>
+                                <br>
+    
+                                <p>Daerah Kerjasama dengan IPB, dengan ini di informasikan hal-hal sebagai berikut:</p>
+                                <ol start="5">
+                                    <li>Untuk nama-nama yang lolos seleksi tahap 1 BUD Kerjasama IPB diatas, dapat melanjutkan ke seleksi tahap 2 yang dilakukan oleh pihak IPB dengan terlebih dahulu membayar biaya pendaftaran sebesar Rp 500.000,-/orang.</li>
+                                    <br>
+                                    <p>Biaya pendaftaran tersebut dapat ditransfer ke rekening  IPB pada :</p>
+                                    <p>Bank : Bank Negara Indonesia Cabang Bogor</p>
+                                    <p>Nomor rekening : 3892859 atas nama : Rektor IPB cq Kerjasama BUD</p>
+                                    <p>Bukti transfer kemudian dikirimkan ke tim sekretariat beasiswa di Whatsapp : 085350108788 atas nama Riska. Dengan format chat : </p>
+                                    <ul>
+                                        <li>Nama</li>
+                                        <li>Asal Daerah Kab/Kota</li>
+                                        <li>Asal Sekolah</li>
+                                        <li>Jurusan 1 yang dipilih</li>
+                                        <li>Jurusan 2 yang dipilih</li>
+                                    </ul>
+                                    <br>
+
+                                    <li>Setelah bukti transfer dikirim, peserta akan diberikan username dan password untuk melanjutkan tahapan seleksi berikutnya.</li>
+                                    <li>Pembayaran dilakukan paling lambat tanggal 8 Juni 2021.</li>
+                                </ol>
+
+                                <p>Demikian Pengumuman Hasil Seleksi Tahap I Beasiswa Utusan Daerah Kerjasama dengan IPB untuk menjadi perhatian bagi pendaftar beasiswa.</p>
+                                <p>Ketua BP-BKT</p>
+                                <p>Drs. Iman Hidayat, M.Si.</p>
+                            </span>                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </span>
+
+    <span class="footer">
+        <div class="container-fluid" style="background-color: #0C3A64;">
+            <div class="row pt-5 mx-2 d-flex justify-content-center">
+                <div class="col-lg-3 col-xs-12 mx-3">
+                    <a href="#" id="logo" class="header-logo">
+                        <img src="Asset/Logo.svg" alt="Logo BPBKT" class="header-logo-image">
+                    </a>
+                </div>  
+    
+                <div class="col-lg-1 col-xs-12 mx-2">
+                    <h6 class="mb-3 mb-lg-3 mt-3 bold-text "><b>MENU</b></h6>
+                    <ul class="list-unstyled">
+                        <li> <a href="#"> <h6>Beranda</h6> </a> </li>
+                        <li> <a href="#"> <h6>Pengumuman</h6> </a> </li>
+                        <li> <a href="#"> <h6>Informasi</h6> </a> </li>
+                        <li> <a href="#"> <h6>Tentang</h6> </a> </li>
+                        <li> <a href="#"> <h6>Pendaftaran</h6> </a>  </li>                                    
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-xs-12 ms-2 links" >
+                    <h6 class="mb-3 mb-lg-3 mt-3 bold-text"><b>PENDAFTARAN DIBUKA</b></h6>
+                    <ul class="list-unstyled" id="pb">
+                        <li> <a href="#"> <h6> <del> Tuntas Mahasiswa </del> </h6> </a> </li>
+                        <li> <a href="#"> <h6> <del> Stimulan Mahasiswa </del> </h6> </a> </li>
+                        <li> <a href="#"> <h6> <del> Stimulan Siswa </del> </h6> </a> </li>
+                        <li> <a href="#"> <h6> <del> IAI Tazkia </del> </h6> </a> </li>                                 
+                    </ul>
+                </div>            
+                
+                <div class="col-lg-2 col-xs-12 ms-2 location">
+                  <h6 class="mb-3 mb-lg-3 mt-3"><b>KONTAK</b></h6>
+                  <ul class="list-unstyled">
+                    <li> <h6 > Whatsapp <small>0812 1234 1234</small></h6> </li> 
+                    <li> <h6 > Telepon  <small>(0541) 743055</small></h6> </li> 
+                    <li> <h6 > <span style="font-size: 12px;">Email</span> <small>admin@kaltimprov.go.id</small></h6> </li> 
+                </ul>
+                </div>
+    
+                <div class="col-lg-3 col-xs-12 ms-2 location">
+                    <h6 class="mb-3 mb-lg-3 mt-3"><b>ALAMAT</b></h6>
+                    <p>Jl. Basuki Rahmat No.5, Bugis, Samarinda Kota, Pelabuhan, Kec. Samarinda Kota, Kota Samarinda, Kalimantan Timur 75242</p>
+                </div>
+    
+            </div>        
+        </div>
+    </span>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
