@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+
+    <style>
+        .footer a {
+            text-decoration: none;            
+            color: #fff;
+            text-align: left;
+        }
+
+        .footer h6 {
+            color: #fff;
+            text-align: left;
+        }
+
+        .footer p {
+            color: #fff;
+            text-align: left;
+        }
+        
+        #pb h6 {
+            color: #FF5656;
+        }
+
+        body{
+            overflow-x:hidden;
+        }  
+        
+    </style>    
+  </head>
+
+  <body>
+
+    <span id="navigation bar">
+        <nav class="navbar navbar-expand-lg navbar-light static-top" style="background-color: #fff;">
+            <div class="container-fluid px-lg-5 px-sm-2" style="background-color: #fff;">
+            <a class="navbar-brand" href="#">
+                <img src="Asset/textlogo.svg" alt="..." height="72">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+    
+                    <li class="nav-item text-center">
+                        <a class="nav-link" aria-current="page" href="index2.html" style="color: #0C3A64; font-weight: 550;">BERANDA</a>
+                    </li>
+     
+                    <li class="nav-item dropdown text-center px-md-4" style="color: #0C3A64; font-weight: 550;">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        SYARAT DAN KETENTUAN
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="SyaratdanKetentuan2.html">KALTIM TUNTAS MAHASISWA</a></li>
+                        <li><a class="dropdown-item" href="SyaratdanKetentuan2.html">KALTIM STIMULAN MAHASISWA</a></li>
+                        <li><a class="dropdown-item" href="SyaratdanKetentuan2.html">KALTIM STIMULAN SISWA</a></li>
+                        </ul>
+                    </li>
+    
+                    <li class="nav-item dropdown text-center px-md-4" style="color: #0C3A64; font-weight: 550;">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        INFORMASI
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="Pengaduan2.html">PENGADUAN DATA AKTREDITASI</a></li>
+                        <li><a class="dropdown-item" href="#">IAI TAZKIA</a></li>
+                        <li><a class="dropdown-item" href="Pengaduan2.html">PERMINTAAN INFORMASI DAN PENGADUAN</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item text-center px-md-4" style="color: #0C3A64; font-weight: 550;">
+                        <a class="nav-link" href="Tentang2.html">TENTANG</a>
+                    </li>
+    
+                    <li class="nav-item text-center px-md-4" style="color: #0C3A64; font-weight: 550;">
+                        <a class="nav-link active" href="Pengumuman2.html">PENGUMUMAN</a>
+                    </li>
+    
+                    <li class="nav-item text-center px-md-4" style="color: #0C3A64; font-weight: 550;">
+                        <a class="nav-link" href="index2.html">Redesign</a>
+                    </li>
+    
+                    <li class="nav-item px-md-4">
+                        <a class="nav-link" href="#">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                LOGIN
+                            </button>
+                        </a>
+                    </li>
+                    <!-- Login Modal -->  
+                    <span id="loginModal">
+                        <script>
+                            var myModal = document.getElementById('myModal')
+                            var myInput = document.getElementById('myInput')
+                    
+                            myModal.addEventListener('shown.bs.modal', function () {
+                            myInput.focus()
+                            })
+                        </script>
+                    
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel"><b>Masuk</b></h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row justify-content-center">
+                                        <div class="col-8"><a href="Login.html"><button type="button" class="btn btn-primary">TUNTAS MAHASISWA</button></a></div>
+                                        <div class="col-8"><a href="Login.html"><button type="button" class="btn btn-primary">STIMULAN MAHASISWA</button></a></div>
+                                        <div class="col-8"><a href="Login.html"><button type="button" class="btn btn-primary">STIMULAN SISWA</button></a></div>
+                                    </div>                
+                                </div>
+                                <div class="modal-footer">
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </span>                  
+    
+                </ul>
+            </div>
+            <a class="navbar-brand" href="#">
+                <img src="Asset/imglogo.svg" alt="..." height="80" class="d-none d-lg-block">
+            </a>
+            </div>
+        </nav>
+    </span>
+    
+    <span class="detail" >
+
+        <div class="container-fluid">
+            <div class="row justify-content-center" id="judullaman"  
+            style="
+            background-image: 
+            linear-gradient(
+            rgba(12, 58, 100, 0.45), 
+            rgba(12, 58, 100, 0.45)
+            ),
+            url(Asset/bgdetailpengum.png);">
+                <div id="bgtentang" class="col col-md-8 col-sm-12 pt-3 mt-5 mx-4" 
+                style="background-color: #fff; opacity: 0.7; 
+                border-top-right-radius: 5vh; border-top-left-radius: 5vh;">
+                    <div class="row">
+                        <div class="col-md-12 col-sm 12 mx-2 p-3">                        
+                            <h1 style="color: #042341; text-align: left; font-weight: 600;">PENGUMUMAN</h1>
+                            <h1 style="color: #042341; text-align: left; font-weight: 600;">DAN BERITA</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+
+        <div class="cotainer-fluid" id="listpengumuman" style="background-color: #f2f2f2;">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-sm-12 px-5 pt-4" style="background-color: #fff;">
+                    <div class="row my-2" id="itemBerita">
+
+                        <div class="row" id="itemBerita">                    
+                            <div class="col-md-7 col-sm-12 py-md-5 py-2 border-top border-bottom">
+                                <div class="row">
+                                    <a href="DetailPengumuman2.html" style="text-decoration: none;">
+                                        <h3 style="font-weight: 600;color: #206ab4;">Pengumuman Pembukaan Pemblokiran (Hold) Dana Beasiswa Untuk Penerima Beasiswa Kaltim Kategori Tuntas Tahun 2019 (Tahap 7)</h3>   
+                                    </a>                                                   
+                                </div>
+        
+                                <div class="row d-none d-lg-block">
+                                    <p style="color: #000;">Sehubungan dengan masih adanya penerima Beasiswa Kaltim kategori Tuntas tahun 2019 yang belum mengirimkan laporan kemajuan studi (evaluasi nilai/IPK terakhir), dengan ini diumumkan hal-hal sebagai berikut</p>  
+                                </div>
+        
+                                <div class="row d-flex align-items-end">
+                                    <a href="DetailPengumuman2.html" style="color: #FF5656;"><b>Baca Selengkapnya</b>
+                                    </a>                            
+                                </div>
+                            </div>
+        
+                            <div class="col-md-5 d-none d-lg-block p-5 border-top border-bottom">
+                                <a href="DetailPengumuman2.html">
+                                    <img src="Asset/img1.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row" id="itemBerita">                    
+                            <div class="col-md-7 col-sm-12 py-md-5 py-2 border-top border-bottom">
+                                <div class="row">
+                                    <a href="DetailPengumuman2.html" style="text-decoration: none;">
+                                        <h3 style="font-weight: 600;color: #206ab4;">Pengumuman Pembukaan Pemblokiran (Hold) Dana Beasiswa Untuk Penerima Beasiswa Kaltim Kategori Tuntas Tahun 2019 (Tahap 7)</h3>   
+                                    </a>                                                   
+                                </div>
+        
+                                <div class="row d-none d-lg-block">
+                                    <p style="color: #000;">Sehubungan dengan masih adanya penerima Beasiswa Kaltim kategori Tuntas tahun 2019 yang belum mengirimkan laporan kemajuan studi (evaluasi nilai/IPK terakhir), dengan ini diumumkan hal-hal sebagai berikut</p>  
+                                </div>
+        
+                                <div class="row d-flex align-items-end">
+                                    <a href="DetailPengumuman2.html" style="color: #FF5656;"><b>Baca Selengkapnya</b>
+                                    </a>                            
+                                </div>
+                            </div>
+        
+                            <div class="col-md-5 d-none d-lg-block p-5 border-top border-bottom">
+                                <a href="DetailPengumuman2.html">
+                                    <img src="Asset/img1.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row" id="itemBerita">                    
+                            <div class="col-md-7 col-sm-12 py-md-5 py-2 border-top border-bottom">
+                                <div class="row">
+                                    <a href="DetailPengumuman2.html" style="text-decoration: none;">
+                                        <h3 style="font-weight: 600;color: #206ab4;">Pengumuman Pembukaan Pemblokiran (Hold) Dana Beasiswa Untuk Penerima Beasiswa Kaltim Kategori Tuntas Tahun 2019 (Tahap 7)</h3>   
+                                    </a>                                                   
+                                </div>
+        
+                                <div class="row d-none d-lg-block">
+                                    <p style="color: #000;">Sehubungan dengan masih adanya penerima Beasiswa Kaltim kategori Tuntas tahun 2019 yang belum mengirimkan laporan kemajuan studi (evaluasi nilai/IPK terakhir), dengan ini diumumkan hal-hal sebagai berikut</p>  
+                                </div>
+        
+                                <div class="row d-flex align-items-end">
+                                    <a href="DetailPengumuman2.html" style="color: #FF5656;"><b>Baca Selengkapnya</b>
+                                    </a>                            
+                                </div>
+                            </div>
+        
+                            <div class="col-md-5 d-none d-lg-block p-5 border-top border-bottom">
+                                <a href="DetailPengumuman2.html">
+                                    <img src="Asset/img1.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row" id="itemBerita">                    
+                            <div class="col-md-7 col-sm-12 py-md-5 py-2 border-top border-bottom">
+                                <div class="row">
+                                    <a href="DetailPengumuman2.html" style="text-decoration: none;">
+                                        <h3 style="font-weight: 600;color: #206ab4;">Pengumuman Pembukaan Pemblokiran (Hold) Dana Beasiswa Untuk Penerima Beasiswa Kaltim Kategori Tuntas Tahun 2019 (Tahap 7)</h3>   
+                                    </a>                                                   
+                                </div>
+        
+                                <div class="row d-none d-lg-block">
+                                    <p style="color: #000;">Sehubungan dengan masih adanya penerima Beasiswa Kaltim kategori Tuntas tahun 2019 yang belum mengirimkan laporan kemajuan studi (evaluasi nilai/IPK terakhir), dengan ini diumumkan hal-hal sebagai berikut</p>  
+                                </div>
+        
+                                <div class="row d-flex align-items-end">
+                                    <a href="DetailPengumuman2.html" style="color: #FF5656;"><b>Baca Selengkapnya</b>
+                                    </a>                            
+                                </div>
+                            </div>
+        
+                            <div class="col-md-5 d-none d-lg-block p-5 border-top border-bottom">
+                                <a href="DetailPengumuman2.html">
+                                    <img src="Asset/img1.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row" id="itemBerita">                    
+                            <div class="col-md-7 col-sm-12 py-md-5 py-2 border-top border-bottom">
+                                <div class="row">
+                                    <a href="DetailPengumuman2.html" style="text-decoration: none;">
+                                        <h3 style="font-weight: 600;color: #206ab4;">Pengumuman Pembukaan Pemblokiran (Hold) Dana Beasiswa Untuk Penerima Beasiswa Kaltim Kategori Tuntas Tahun 2019 (Tahap 7)</h3>   
+                                    </a>                                                   
+                                </div>
+        
+                                <div class="row d-none d-lg-block">
+                                    <p style="color: #000;">Sehubungan dengan masih adanya penerima Beasiswa Kaltim kategori Tuntas tahun 2019 yang belum mengirimkan laporan kemajuan studi (evaluasi nilai/IPK terakhir), dengan ini diumumkan hal-hal sebagai berikut</p>  
+                                </div>
+        
+                                <div class="row d-flex align-items-end">
+                                    <a href="DetailPengumuman2.html" style="color: #FF5656;"><b>Baca Selengkapnya</b>
+                                    </a>                            
+                                </div>
+                            </div>
+        
+                            <div class="col-md-5 d-none d-lg-block p-5 border-top border-bottom">
+                                <a href="DetailPengumuman2.html">
+                                    <img src="Asset/img1.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+
+                        
+
+                    <div class="row my-4">
+                        <span id="pagenum">
+                            <ul class="pagination justify-content-center">
+                
+                                <li class="page-item disabled" aria-disabled="true" aria-label="« Previous">
+                                    <span class="page-link" aria-hidden="true">‹</span>
+                                 </li>          
+                                
+                                 <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+                                 <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                 <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                 <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                 <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                 <li class="page-item"><a class="page-link" href="#">6</a></li>
+                                 <li class="page-item"><a class="page-link" href="#">7</a></li>
+                                 
+                                 <li class="page-item">
+                                    <a class="page-link" href="#" rel="next" aria-label="Next »">›</a>
+                                 </li>
+                            </ul>
+                        </span>
+                    </div>
+
+                </div>            
+            </div> 
+        </div>
+
+    </span>
+    
+
+    <span class="footer">
+        <div class="container-fluid" style="background-color: #0C3A64;">
+            <div class="row pt-5 mx-2 d-flex justify-content-center">
+                <div class="col-lg-3 col-xs-12 mx-3">
+                    <a href="#" id="logo" class="header-logo">
+                        <img src="Asset/Logo.svg" alt="Logo BPBKT" class="img-fluid">
+                    </a>
+                </div>  
+    
+                <div class="col-lg-1 col-xs-12 mx-2">
+                    <h6 class="mb-3 mb-lg-3 mt-3 bold-text "><b>MENU</b></h6>
+                    <ul class="list-unstyled">
+                        <li> <a href="#"> <h6>Beranda</h6> </a> </li>
+                        <li> <a href="#"> <h6>Pengumuman</h6> </a> </li>
+                        <li> <a href="#"> <h6>Informasi</h6> </a> </li>
+                        <li> <a href="#"> <h6>Tentang</h6> </a> </li>
+                        <li> <a href="#"> <h6>Pendaftaran</h6> </a>  </li>                                    
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-xs-12 ms-2 links" >
+                    <h6 class="mb-3 mb-lg-3 mt-3 bold-text"><b>PENDAFTARAN DIBUKA</b></h6>
+                    <ul class="list-unstyled" id="pb">
+                        <li> <a href="#"> <h6> <del> Tuntas Mahasiswa </del> </h6> </a> </li>
+                        <li> <a href="#"> <h6> <del> Stimulan Mahasiswa </del> </h6> </a> </li>
+                        <li> <a href="#"> <h6> <del> Stimulan Siswa </del> </h6> </a> </li>
+                        <li> <a href="#"> <h6> <del> IAI Tazkia </del> </h6> </a> </li>                                 
+                    </ul>
+                </div>            
+                
+                <div class="col-lg-2 col-xs-12 ms-2 location">
+                  <h6 class="mb-3 mb-lg-3 mt-3"><b>KONTAK</b></h6>
+                  <ul class="list-unstyled">
+                    <li> <h6 > Whatsapp <small>0812 1234 1234</small></h6> </li> 
+                    <li> <h6 > Telepon  <small>(0541) 743055</small></h6> </li> 
+                    <li> <h6 > <span style="font-size: 12px;">Email</span> <small>admin@kaltimprov.go.id</small></h6> </li> 
+                </ul>
+                </div>
+    
+                <div class="col-lg-3 col-xs-12 ms-2 location">
+                    <h6 class="mb-3 mb-lg-3 mt-3"><b>ALAMAT</b></h6>
+                    <p>Jl. Basuki Rahmat No.5, Bugis, Samarinda Kota, Pelabuhan, Kec. Samarinda Kota, Kota Samarinda, Kalimantan Timur 75242</p>
+                </div>
+    
+            </div>        
+        </div>
+    </span>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
