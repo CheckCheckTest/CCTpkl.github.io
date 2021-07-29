@@ -11,19 +11,6 @@
     <title>Hello, world!</title>
 
     <style>
-        [class*="col"] {
-            padding: 0.5rem;
-            border: 2px solid #f2f5f8;
-            color: #000;
-            text-align: center;            
-        }
-
-        [class*="row"] {
-            padding: 0.5rem;
-            border: 2px solid #f2f5f8;
-            color: #000;
-            text-align: left;            
-        }
 
         @media (max-width: 1920px) {
             body {
@@ -41,59 +28,62 @@
     </style>
   </head>
   <body>
-    <div class="row d-flex justify-content-center" style="height: 98vh;">
-        <div class="col-md-6 col-sm-11">
-            <div class="d-flex justify-content-center">
-                
-                <div class="col-5" style="background-color: #0C3A64; height: 60vh; overflow: hidden;">
-                    <img src="Asset/Pattern.png" alt="" class="img-responsive">
-                </div>
-
-                <div class="col-7" style="background-color: #fff;">
-                    <div class="row">
-                        <div class="col-6">
-                            <img src="Asset/Logo.svg" alt="" class="img-fluid">
-                        </div>
-                        <div class="col-6">
-                            <span style="color: #0C3A64; text-align: right; font-weight: 700;">
-                                <h2 style="font-weight: 700;">TUNTAS</h2>
-                                <h2 style="font-weight: 700;">MAHASISWA</h2>
-                            </span>
-                        </div>
+    <div class="container-fluid w-100">
+        <div class="row d-flex justify-content-center align-items-center" style="height: 100vh;">
+            <div class="col-md-6 col-sm-11">
+                <div class="row justify-content-center">
+                    
+                    <div class="col-5" style="background-color: #0C3A64; height: 80vh; overflow: hidden;">
+                        <img src="Asset/Pattern.png" alt="" class="img-responsive">
                     </div>
-
-                    <div class="row">
-                        <form>
-                            <div class="mb-3">
-                              <label for="exampleInputEmail1" class="form-label">No. Whatsapp</label>
-                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="08123123123">
+    
+                    <div class="col-7 justify-content-center" style="background-color: #fff;">
+                        <div class="row p-2">
+                            <div class="col-6 p-md-4 d-none d-md-block">
+                                <img src="Asset/Logo.svg" alt="" class="img-fluid">
                             </div>
-                            <div class="mb-3">
-                              <label for="exampleInputPassword1" class="form-label">Password</label>
-                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            <div class="col-6 p-4 align-self-end text-end">
+                                <span style="color: #0C3A64; text-align: right; font-weight: 700;">
+                                    <h2 style="font-weight: 700;">TUNTAS</h2>
+                                    <h2 style="font-weight: 700;">MAHASISWA</h2>
+                                </span>
                             </div>
-                            <a href="">Lupa Password</a>
-                            <div class="mb-3 form-check">
-                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                              <label class="form-check-label" for="exampleCheck1">Stay Signed In</label>
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label">Captcha</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1">
-                              </div>
-                            <div class="row">
-                                <div class="col-6">
-                                    <button type="submit" class="btn btn-primary">Pendaftaran</button>
+                        </div>
+    
+                        <div class="row">
+                            <form>
+                                <div class="mb-3">
+                                  <label for="exampleInputEmail1" class="form-label">No. Whatsapp</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="08123123123">
                                 </div>
-                                <div class="col-6">
-                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                <div class="mb-3">
+                                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                                  <input type="password" class="form-control" id="exampleInputPassword1">
                                 </div>
-                            </div>
-                          </form>
+                                <a href="">Lupa Password</a>
+                                <div class="mb-3 form-check">
+                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                  <label class="form-check-label" for="exampleCheck1">Stay Signed In</label>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Captcha</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                  </div>
+                                <div class="row pb-3">
+                                    <div class="col-6">
+                                        <a href="KategoriPendaftaran.html">
+                                            <button type="button" class="btn btn-primary">Pendaftaran</button>
+                                        </a>                                        
+                                    </div>
+                                    <div class="col-6">
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                    </div>
+                                </div>
+                              </form>
+                        </div>                
                     </div>                
-                </div>                
+                </div>            
             </div>
-            
         </div>
     </div>
 
